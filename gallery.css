@@ -1,0 +1,82 @@
+.class1 {
+    /* background-image: url("download(2).jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .navbar {
+    position: sticky;
+    background-color: rgb(237, 242, 242);
+    font-size: 30px;
+    border-radius: 200px;
+  }
+  
+  .navbar ul {
+    overflow: auto;
+  }
+  
+  .navbar li {
+    float: right; /*When we float it gets overflow from parent */
+    list-style: none;
+    margin: 41px 15px;
+    padding-bottom: 0px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    color: rgb(237, 242, 242);
+    font-size: 30px;
+    line-height: 20px;
+  }
+  
+  .navbar li a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 4 px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .search {
+    float: right;
+    padding: 12px 30px;
+    margin: 0px 10px;
+  }
+  
+  .navbar input {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 20px;
+    padding-bottom: 10px;
+  }
+  .navbar a:hover {
+    background-color: rgb(237, 242, 242);
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+   .bg {
+   
+    background-image: url("Images/mission.jpg");
+  
+    
+    height: 100%;
+     /* opacity: 0.3;  */
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } 
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  
